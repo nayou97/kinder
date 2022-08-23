@@ -1,0 +1,338 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<title>키즈홈 디자인-08</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="user-scalable=no, maximum_scale=1, minimum_scale=1.0 ,width=device-width, target_densitydpi=device-dpi">
+	<meta name="title" content="">
+	<meta name="author" content="">
+	<meta name="keywords" content="">
+	<meta name="subject" content="">
+	<meta name="Description" content="">
+	<meta name="classification" content="">
+
+	<link type="text/css" href="../style/bootstrap.3.3.6.min.css" rel="stylesheet">
+	<link type="text/css" href="../style/bootstrap-select.css" rel="stylesheet">
+	<link type="text/css" href="../style/reset.css" rel="stylesheet">
+	<link type="text/css" href="../style/common.css" rel="stylesheet">
+	<link type="text/css" href="../style/common-ani.css" rel="stylesheet">
+	<link type="text/css" href="../style/layerpopup.css" rel="stylesheet">
+	<link type="text/css" href="../style/program.css" rel="stylesheet">
+	<link type="text/css" href="../style/ebi.slider.css" rel="stylesheet">
+	<link type="text/css" href="../style/type.css" rel="stylesheet">
+	<link type="text/css" href="../style/layout.css" rel="stylesheet">
+	<link type="text/css" href="../style/design.css" rel="stylesheet">
+	<link type="text/css" href="../style/main.css" rel="stylesheet">
+
+	<script type="text/javascript" src="../script/jquery.1.12.0.min.js"></script>
+	<script type="text/javascript" src="../script/jquery-ui.1.10.1.js"> </script>
+	<script type="text/javascript" src="../script/jquery.cookie.js"></script>
+	<script type="text/javascript" src="../script/bootstrap.3.3.6.min.js"></script>
+	<script type="text/javascript" src="../script/bootstrap-select.js"></script>
+	<script type="text/javascript" src="../script/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="../script/ebi.default.js"></script>
+	<script type="text/javascript" src="../script/ebi.layerpopup.js"></script>
+	<script type="text/javascript" src="../script/ebi.slider.js"></script>
+	<script type="text/javascript" src="../script/ebi.gnb.js"></script>
+	<script type="text/javascript" src="../script/ebi.js"></script>
+
+	<!-- push 전송 API -->
+	<script type="text/javascript" src="/pushProvider/sender.js"></script>
+
+	<!--[if lt IE 9]>
+		<link href="../style/ie.warning.css" rel="stylesheet" type="text/css">
+	<![endif]-->
+</head>
+
+<body class="typeWinter">
+<!-- <body class="typeSpring"> -->
+<!-- <body class="typeSummer"> -->
+<!-- <body class="typeFall"> -->
+
+<header>
+	<div class="head">
+		<h1>
+			<a href="../main/main.html" title="행복어린이집">
+				<img class="pc" src="../images/common/logo.png" alt="행복어린이집 로고">
+				<img class="mobile" src="../images/common/logo2.png" alt="행복어린이집 로고">
+			</a>
+		</h1>
+		<div class="side">
+			<ul>
+				<li><a class="typeColor login" href="../member/login.html"><span>로그인</span></a></li>
+				<li><a class="typeColor pc" href="../member/join_agree.html">회원가입</a></li>
+			</ul>
+		</div>
+		<a class="gnbView mobile" href="#void" title="전체메뉴보기"><!-- <img src="../images/common/icon_allmenu.png" alt=""> --></a>
+	</div>
+
+	<nav class="pc box typeColor">
+		<div class="navbg pc">
+			<div class="dep1"></div>
+			<div class="dep2"></div>
+		</div>
+		<!-- orgH:1차메뉴 높이 / maxH:최대높이 / leftgap:왼쪽에서 여백 px,% 사용가능 -->
+		<div class="gnb box" data-orgH="60" data-maxH="110" data-gap="200px" data-leftPos="0">
+			<ul>
+				<!-- <a class="home mobile" href="../main/main.html">HOME</a> -->
+				<li >
+					<a href="../intro/greeting.html">우리원소개</a>
+					<ul>
+						<li ><a href="../intro/greeting.html">인사말</a></li>
+						<li ><a href="../intro/history.html">운영방침 및 연혁</a></li>
+						<li ><a href="../intro/teacher.html">선생님 소개</a></li>
+						<li ><a href="../intro/facility.html">시설안내</a></li>
+						<li ><a href="../intro/location.html">오시는길</a></li>
+					</ul>
+				</li>
+				<li >
+					<a href="../edu/edu_01.html">교육안내</a>
+					<ul>
+						<li ><a href="../edu/edu_01.html">교육 프로그램</a></li>
+						<li ><a href="../edu/edu_02.html">연간 교육계획</a></li>
+						<li ><a href="../edu/edu_03.html">일일 활동계획</a></li>
+						<li ><a href="../edu/edu_04.html">특별활동</a></li>
+						<li ><a href="../edu/edu_05.html">교육행사</a></li>
+						<!-- <li><a href="../edu/edu_06.html">방과 후 과정</a></li> -->
+					</ul>
+				</li>
+				<li >
+					<a href="../gallery/list.html">포토앨범</a>
+					<ul>
+						<li ><a href="../gallery/list.html">씨앗반</a></li>
+						<li ><a href="../gallery/list.html">새싹반</a></li>
+						<li ><a href="../gallery/list.html">풀잎반</a></li>
+						<li ><a href="../gallery/list.html">열매반</a></li>
+						<li ><a href="../gallery/list.html">꽃잎반</a></li>
+					</ul>								
+				</li>
+				<li >
+					<a href="../entrance/entrance_01.html">입학안내</a>
+					<ul>
+						<li ><a href="../entrance/entrance_01.html">모집요강</a></li>
+						<li ><a href="../entrance/entrance_02.html?tn=bbs_entrance">입학상담</a></li>
+						<!-- <li><a href="../entrance/entrance_03.html">입학대기</a></li> -->
+					</ul>
+				</li>
+				<li >
+					<a href="../community/notice_list.html?tn=bbs_notice">알림마당</a>
+					<ul>
+						<li ><a href="../community/notice_list.html?tn=bbs_notice">공지사항</a></li>
+						<li ><a href="../community/paper_list.html?tn=bbs_paper">가정통신문</a></li>
+						<li ><a href="../community/food_list.html?tn=bbs_food">식단표</a></li>
+						<li ><a href="../community/schedule_list.html?tn=schedule_info">행사일정</a></li>
+					</ul>
+				</li>
+				<li >
+					<a href="../mypage/note_list.html?tn=bbs_smart_note">마이페이지</a>							
+					<!-- 로그인 전 --
+					<ul>
+						<li ><a href="../member/login.html">로그인</a></li>
+						<li ><a href="../member/join_agree.html">회원가입</a></li>
+						<li ><a href="../member/search.html">아이디/비밀번호찾기</a></li>
+						<li ><a href="../member/agree.html">이용약관</a></li>
+						<li ><a href="../member/privacy.html">개인정보취급방침</a></li>
+					</ul>-->
+					
+					<!-- 로그인 후 -->
+					<ul>
+						<li ><a href="../mypage/note_list.html?tn=bbs_smart_note">스마트알림장</a></li>
+						<li ><a href="../mypage/medicine_list.html?tn=bbs_medicine">투약의뢰서</a></li>	<!-- ▼ 수정 V01  -->		
+						<li ><a href="../mypage/modify_before.html">개인정보수정</a></li>
+						<li ><a href="../mypage/member_end.html">회원탈퇴</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</nav><!-- //nav -->
+
+	<div class="gnbCover mobile"></div>
+	<nav class="mobile box" data-arrow="left"><!-- 모바일 메뉴펼침 방향 선택 -->
+		<div class="closeWrap typeColor">
+			<a href="#void" class="gnbClose"></a>
+			<a class="home" href="../main/main.html">HOME</a>
+		</div>
+	</nav>
+</header>
+<!-- // header -->
+
+<div class="sub">	
+	<!-- sub title -->
+	<div class="subTit">
+		<h2>알림마당</h2>
+		<p>꿈과 지혜가 자라는 행복한 아이들! 쾌적한 환경에서 아이들의 꿈을 키워요!</p>
+	</div>
+
+	<!-- sub contents -->
+	<div class="subCon list">
+		<h3>행사일정</h3>
+		<div class="icon"></div>
+		
+		<!-- lnb -->
+		<div class="lnb pc community">
+			<ul>
+			<li ><a href="../community/notice_list.html?tn=bbs_notice">공지사항</a></li>
+			<li ><a href="../community/paper_list.html?tn=bbs_paper">가정통신문</a></li>
+			<li ><a href="../community/food_list.html?tn=bbs_food">식단표</a></li>
+			<li  class="on"><a href="../community/schedule_list.html?tn=schedule_info">행사일정</a></li>
+		</ul>
+		</div>
+		
+		<div class="h50"></div>
+		
+		<div class="inner">
+			
+			
+			
+		
+		
+		
+		
+		<!-- 페이징 -->
+		<div class="page_box calendar">
+		
+
+			<ul class="pagination">
+				<li><a class="prev" href="#void"><img src="../img/common_responsive/prev.png" alt="이전"></a></li>
+				<li><span class="yyyymm">2017-12</span></li>
+				<li><a class="next" href="#void"><img src="../img/common_responsive/next.png" alt="다음"></a></li>
+				<li><a class="write" href="../community/schedule_write.html">글쓰기</a></li>
+			</ul>
+			
+		</div><!-- //페이징 -->
+
+
+
+		
+		<div class="h10"></div>
+
+		<div class="list_normal calendar">
+			<table class="table">
+				<colgroup>
+					<col class="hidden-xs">
+					<col class="hidden-xs">
+					<col class="hidden-xs">
+					<col class="hidden-xs">
+					<col class="hidden-xs">
+					<col class="hidden-xs">
+					<col class="hidden-xs">
+					<col class="hidden-xs">
+				</colgroup>
+				<thead class="hidden-xs">
+					<tr>
+						<th class="red">일</th>
+						<th>월</th>
+						<th>화</th>
+						<th>수</th>
+						<th>목</th>
+						<th>금</th>
+						<th class="blue">토</th>
+					</tr>
+				</thead>
+				
+				<tbody class="">
+					<tr>
+						<td class="red"></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td class="pcView"><span>1</span><a href="../community/schedule_view.html"><span>총 1건</span><span>새학기, 새출발 2018 첫수업</span></a></td>
+						<td class="moView"><span>1</span><a href="../community/schedule_view.html"><span>총 1건</span><span>새학기, 새출발 2018 첫수업 새학기, 새출발 2018 첫수업 새학기, 새출발 2018 첫수업 새학기, 새출발 2018 첫수업 새학기, 새출발 2018 첫수업</span></a></td>
+						<td class="blue"><span>2</span></td>
+					</tr>
+					<tr>
+						<td class="red"><span>3</span></td>
+						<td><span>4</span></td>
+						<td><span>5</span></td>
+						<td><span>6</span></td>
+						<td><span>7</span></td>
+						<td><span>8</span></td>
+						<td class="pcView blue"><span>9</span><a href="../community/schedule_view.html"><span>총 1건</span><span>겨울방학 일주일간(-15일까지)겨울방학 일주일간(-15일까지)겨울방학 일주일간(-15일까지)겨울방학 일주일간(-15일까지)겨울방학 일주일간(-15일까지)</span></a></td>
+						<td class="moView blue"><span>9</span><a href="../community/schedule_view.html"><span>총 1건</span><span>겨울방학 일주일간(-15일까지)겨울방학 일주일간(-15일까지)겨울방학 일주일간(-15일까지)겨울방학 일주일간(-15일까지)겨울방학 일주일간(-15일까지)</span></a></td>
+					</tr>
+					<tr>
+						<td class="red"><span>10</span></td>
+						<td><span>11</span></td>
+						<td><span>12</span></td>
+						<td><span>13</span></td>
+						<td><span>14</span></td>
+						<td><span>15</span></td>
+						<td class="blue"><span>16</span></td>
+					</tr>
+					<tr>
+						<td class="pcView red"><span>17</span><a href="../community/schedule_view.html"><span>총 1건</span><span>눈썰매장 가요~ 눈썰매장 가요~ 눈썰매장 가요~ 눈썰매장 가요~</span></a></td>
+						<td class="moView red"><span>17</span><a href="../community/schedule_view.html"><span>총 1건</span><span>눈썰매장 가요~ 눈썰매장 가요~ 눈썰매장 가요~ 눈썰매장 가요~</span></a></td>
+						<td><span>18</span></td>
+						<td><span>19</span></td>
+						<td><span>20</span></td>
+						<td><span>21</span></td>
+						<td><span>22</span></td>
+						<td class="blue"><span>23</span></td>
+					</tr>
+					<tr>
+						<td class="red"><span>24</span></td> 
+						<td><span>25</span></td>
+						<td><span>26</span></td>
+						<td><span>27</span></td>
+						<td><span>28</span></td>
+						<td><span>29</span></td>
+						<td class="blue"><span>30</span></td>
+					</tr>
+					<tr>
+						<td class="red"><span>31</span></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td class="blue"></td>
+					</tr>
+				</tbody>
+				
+			</table>
+			  
+		</div><!-- //list_normal calendar -->
+
+
+
+
+
+
+		
+		</div><!--//inner -->
+		
+		
+	</div><!-- //subCon -->
+</div><!-- //sub -->
+
+<!-- footer start -->
+<div id="gotop">
+	<a href="#void" alt="위로"></a>
+</div>
+
+<footer>
+	<div>
+		<ul>
+			<li><a href="../member/agree.html">이용약관</a></li>
+			<li><a href="../member/privacy.html">개인정보취급방침</a></li>
+			<li><a href="../member/join_agree.html">회원가입</a></li>
+			<li><a href="../member/search.html">아이디/비밀번호찾기</a></li>
+		</ul>
+		<ul>
+			<li><a href="#void" class="typeColor">admin</a></li>
+			<li><a href="http://www.ebiweb.co.kr/ebi_2014/main/main.html" class="typeColor">design by EBI</a></li>
+		</ul>
+	</div>
+	<address class="typeColor">
+		<span>대구시 북구 노원동 1가 12-10, 4F</span>
+		<span>TEL : 1688-6860</span>
+		<span>개인정보관리책임자 : 홍길동 (OOO@OOO.OOO)</span>
+		<p>Copyright &copy; by 키즈홈유치원. All right reserved.</p>
+	</address>
+</footer>
+
+</body>
+</html>
