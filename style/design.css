@@ -1,0 +1,546 @@
+@charset "utf-8";
+
+/* ******************* bootstrap modify ******************* */
+ul,ol,li,dl,dt,dd {list-style:none; padding:0; margin:0;}
+
+
+/* ******************** 공용 ******************** */
+/* table style */
+.tableMode {display:table; clear:both; float:none; width:100%; max-width:100%; padding:0; margin:0; border-bottom:0;}
+.tableMode>* {display:table-cell; float:none; padding:10px;}
+.tableMode>*:first-child {border-left:0;}
+.tableMode .middle {vertical-align:middle;}
+
+/* 격자형 구조 - 테이블 스타일 */
+.typeCube {clear:both;}
+.typeCube .tableWrap {display:table; width:100%; margin:0; padding:0;}
+.typeCube .tableWrap > * {display:table-cell; float:none; margin:0; padding:0;}
+
+.c_acc {color:#00cccc !important;} /* 강조색상 */
+.c_sub1 {color:#ee8e00 !important;} /* 보조색상1 */
+.c_sub2 {color:#ee8e00 !important;} /* 보조색상2 */
+.c_sub3 {color:#ee8e00 !important;} /* 보조색상2 */
+
+/*서브-상단*/
+.sub .subTit {overflow:hidden; max-width:100%; height:380px; background-size:cover !important; text-align:center; padding-top:210px;}
+.sub .subTit h2 {margin-top:20px; font-family:'Dohyeon'; font-size:30px; line-height:1.2;}
+.sub .subTit p {margin-top:5px; font-size:18px;}
+
+/*서브-내용*/
+.sub .subCon {overflow:hidden; max-width:1000px; margin:90px auto 0; background:#fff; padding:50px 0; border-radius:2px;}
+.sub .subCon h3 {/* font-family:'Dohyeon'; */ font-size:28px; letter-spacing:-2px; text-align:center;}
+.sub .subCon .icon {background-size:78px !important; height:78px; margin-top:10px;}
+.sub .subCon .inner {padding:0 50px; border:1px solid transparent; overflow:hidden;}
+#googleMap {height:500px;}
+
+.bgc1 {background:#fff0eb !important;}
+.bgc2 {background:#fff9cc !important;}
+.bgc3 {background:#e0f4f1 !important;}
+
+
+/* ******************** 회사소개 ******************** */
+/* 인사말 */
+.sub .greeting {text-align:center;}
+.sub .greeting img {border-radius:5px;}
+.sub .greeting p {font-size:18px; line-height:1.6;}
+.sub .greeting p+p {margin-top:30px;}
+.sub .greeting p.intro {font-size:22px; margin-top:40px; line-height:1.4;}
+
+/* 운영방침 및 연혁 */
+.sub .history .inner>div {overflow:hidden; padding-bottom:20px;}
+.sub .history .inner>div + div {border-top:1px solid #eee; padding-top:20px;}
+.sub .history .inner h4,
+.sub .history .inner ul,
+.sub .history .inner li {float:left; line-height:1.6;}
+.sub .history .inner h4 {width:10%; display:inline-block; font-size:22px; line-height:1.5;}
+.sub .history .inner ul {width:90%;}
+.sub .history .inner ul li {width:100%; font-size:18px; padding-left:30px; color:#666; position:relative;}
+.sub .history .inner ul li span {color:#333; position:absolute; top:0; left:0;}
+
+/* 선생님 소개 */
+.sub .teacher .inner>div {float:left; width:33.3%; text-align:center; padding:20px 10px;}
+.sub .teacher .inner>div>img {border-radius:50%;}
+.sub .teacher .inner>div h4 {margin-top:20px;}
+.sub .teacher .inner>div p {line-height:1.4; word-break:keep-all;}
+.sub .teacher .inner>div p:last-child {margin-top:5px; color:#666;}
+
+/* 시설안내 */
+.sub .facility .inner>div {float:left; width:50%;}
+.sub .facility .inner>div:first-child {width:100%;}
+.sub .facility .inner>div:first-child img {border-radius:5px 5px 0 0;}
+.sub .facility .inner>div:nth-child(4) img {border-radius:0 0 0 5px;}
+.sub .facility .inner>div:nth-child(5) img {border-radius:0 0 5px 0;}
+.sub .facility .inner>div>img {max-width:100%;}
+
+/* 오시는길 */
+.sub .location .inner {text-align:center;}
+.sub .location .inner h4 {margin:20px 0 10px;}
+.sub .location .inner p {line-height:1.4; color:#999;}
+.sub .location .inner p span {color:#333;}
+.sub .location .inner p .lineGray {padding:0 10px; background:url(../images/intro/lineGray.png)no-repeat center;}
+
+
+/* ******************** 교육안내 ******************** */
+/* 교육프로그램 */
+.sub .edu01 .inner h4 {font-size:22px; margin-bottom:20px;}
+.sub .edu01 .inner .policy {overflow:hidden;}
+.sub .edu01 .inner .policy div {float:left; width:25%; text-align:center; padding:0 10px;}
+.sub .edu01 .inner .policy div h5 {margin-top:20px; font-size:18px; }
+.sub .edu01 .inner .policy div p {margin-top:10px; line-height:1.4; word-break:keep-all; color:#666;}
+
+.sub .edu01 .inner .agePro+.agePro {margin-top:20px;}
+.sub .edu01 .inner .agePro .age {font-size:18px; padding:10px 15px; border-radius:5px; margin-bottom:10px;}
+.sub .edu01 .inner .agePro p {padding-left:15px; color:#666;}
+
+/* 연간교육계획, 일일활동계획 */
+.sub .boxType .inner>div {float:left; padding:0 10px;}
+.sub .boxType .inner>div>div>img {width:100%; border-radius:5px 5px 0 0;}
+.sub .boxType .inner>div>div>p {padding:10px 15px; border-radius:0 0 5px 5px; font-size:18px;}
+.sub .boxType .inner>div>p {padding:10px 15px; line-height:1.2; font-size:16px; border:1px solid #eee; border-radius:5px; margin-top:3px; color:#666;}
+
+.sub .boxType.edu02 .inner>div {width:33.3%;}
+.sub .boxType.edu03 .inner>div {width:50%;}
+.sub .boxType.edu03 .inner>div>div>p {border:1px solid #eee; font-weight:500;}
+.sub .boxType.edu03 .inner>div>p>span {padding-right:10px; color:#999;}
+
+/* 특별활동 */
+.sub .edu04 .inner>div {float:left; width:33.3%; padding:20px 10px; text-align:center;}
+.sub .edu04 .inner>div:nth-child(3n+1) {clear:both;}
+.sub .edu04 .inner>div>img {width:100%; border-radius:5px; margin-bottom:10px;}
+.sub .edu04 .inner>div>p {font-size:18px; line-height:1.4;}
+.sub .edu04 .inner>div>p:last-child {font-size:16px; color:#666; word-break:keep-all; margin-top:5px;}
+
+/* 교육행사 */
+.sub .boxType.edu05 .inner>div {width:33.3%; padding:20px 10px;}
+.sub .boxType.edu05 .inner>div>div>p {border:1px solid #eee; font-weight:500;}
+
+
+/* ******************** 포토앨범 ******************** */
+/* list.html */
+.sub .list .inner>a {float:left; padding:20px 10px; width:33.3%; /*padding:20px 10px;*/}
+.sub .list .inner>a>div {border:1px solid #eee; border-radius:5px;}
+.sub .list .inner>a>div>img {width:100%; border-radius:5px 5px 0 0;}
+.sub .list .inner>a>div>p {
+	padding:10px 15px; font-size:18px;
+	border-top:1px solid #eee; font-weight:500; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+}
+.sub .list .inner>a>div:hover {box-shadow:0px 0px 10px rgba(0,0,0,.2);}
+
+
+/* ******************** 입학안내 ******************** */
+/* 모집요강 */
+.sub .entran01 .inner>div {text-align:center; padding-bottom:30px; background:#beedff; border:1px solid #eee; border-radius:5px; overflow:hidden;}
+.sub .entran01 .inner>div>img {width:100%; padding:50px; background:#fff;}
+.sub .entran01 .inner>div h4 {display:inline-block; font-size:30px; margin:30px 0 10px; padding-left:38px; background:url(../images/entrance/icon_question.png)no-repeat left center;}
+.sub .entran01 .inner>div h4.tel {background:url(../images/entrance/icon_tel.png)no-repeat left center; margin-top:40px;}
+.sub .entran01 .inner>div h4.tel+span {color:#ff4c4c; font-size:30px;}
+.sub .entran01 .inner>div>div {background:#fff; border-radius:5px; margin:0 auto; padding:10px; width:287px; font-size:18px; line-height:1.5;}
+.sub .entran01 .inner>div>div+div {margin-top:10px;}
+.sub .entran01 .inner>div p {line-height:1.4;}
+
+/* 입학상담 */
+.ckCheck>div input[type="checkbox"] {visibility:hidden;}
+.ckCheck>div>span {background:url(../images/common/checkImg.png)no-repeat 0 center; background-size:20px; padding-left:10px;}
+.ckCheck>div>span.on {background:url(../images/common/checkImg_on.png)no-repeat 0 center; background-size:20px; padding-left:10px;}
+
+
+/* ******************** 알림마당 ******************** */
+/* 행사일정 */
+.calendar>.table tbody tr:hover {background-color:#fff !important;}
+
+.calendar>.table thead tr th,
+.calendar>.table tbody tr td {width:14.3%;}
+
+.calendar>.table .blue {color:blue;}
+
+.calendar>.table thead tr th+th,
+.calendar>.table tbody tr td+td {border-left:1px solid #eee;}
+
+.calendar>.table tbody tr td {padding:0; height:90px; text-align:left;}
+.calendar>.table tbody tr td>span {display:inline-block; padding:10px 15px 0;}
+.calendar>.table tbody tr td:hover {background:#fafafa;}
+.calendar>.table tbody tr td a {display:block; width:100%; font-size:14px; color:#999; padding:5px 15px 0;}
+.calendar>.table tbody tr td a span {display:block; width:90px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-size:14px; color:#999;}
+
+.page_box.calendar {margin-top:0;}
+.calendar>.pagination li {display:inline-block;}
+.calendar>.pagination li .prev {border:1px solid #dedede !important;}
+.calendar>.pagination li .next {border-radius:0 4px 4px 0;}
+.calendar>.pagination li .yyyymm {border:0; height:50px; padding:9px 10px; font-size:20px; color:#333; font-weight:500;}
+.calendar>.pagination li .yyyymm:hover {background:none;}
+
+.write_normal .form-group.type1>div>* {float:none;}
+
+.calendar>.table .moView {display:none;}
+
+
+/* ******************** 마이페이지 ******************** */
+/* 스마트알림장 */
+.listType1 .thead {overflow:hidden; text-align:center; padding:15px 5px; font-size:15px; background:#f9f9f9; border-top:1px solid #333; border-bottom:1px solid #333;}
+.listType1 .thead li {float:left;}
+.listType1 .thead li:first-child {width:35%;}
+.listType1 .thead li:last-child {width:65%;}
+
+.listType1 .tbody li {overflow:hidden; text-align:center; border-bottom:1px solid #eee;}
+.listType1 .tbody li:hover {background:#fafafa;}
+.listType1 .tbody li a div {float:left; padding:15px;}
+.listType1 .tbody li a div:first-child {width:35%;}
+.listType1 .tbody li a div:last-child {width:65%;}
+.listType1 .tbody li a div:first-child>img {width:100%; border:1px solid #eee; border-radius:5px;}
+.listType1 .tbody li a div:first-child {position:relative;}
+.listType1 .tbody li a div:first-child span {position:absolute; top:25px; left:25px; width:40px; height:40px; box-shadow:1px 1px 3px rgba(0,0,0,.15); border-radius:50%; display:inline-block; background-size:15px !important;}
+.listType1 .tbody li a div:first-child span.up {background:#64d4ff url(../images/common/icon_up.png)no-repeat center;}
+.listType1 .tbody li a div:first-child span.down {background:#ff6464 url(../images/common/icon_down.png)no-repeat center;}
+.listType1 .tbody li a div:last-child {text-align:left;}
+.listType1 .tbody li a div:last-child>p:first-child {font-size:18px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; position:relative; padding-right:40px;}
+.listType1 .tbody li a div:last-child>p:first-child>span {position:absolute; top:0; right:0; background:#203857; color:#fff; display:inline-block; border-radius:5px; padding:2px 6px; margin-left:5px; font-size:14px;}
+.listType1 .tbody li a div:last-child>p:nth-child(2) {color:#64d4ff;}
+.listType1 .tbody li a div:last-child>p:last-child {color:#999;}
+
+.note .boxTit {margin:40px 0 15px; padding:10px 0; border:1px solid #eee; border-radius:5px; padding-left:15px; background:#f9f9f9; font-size:18px; text-align:center;}
+.note .boxTit~div.form-group label {margin-bottom:10px;}
+.note .boxTit~div.form-group label .add {display:inline-block; padding:0 8px; margin-left:8px; border-radius:5px; background:#ff6464 ; color:#fff !important; font-size:16px; font-weight:normal;}
+.boxTit.detail~div.form-group>div>select+select,
+.boxTit.detail~div.form-group>div>input {margin-left:2px;}
+
+.note .type1 {padding-bottom:10px;}
+.note .type1+.type1 {border-top:1px solid #eee; padding-top:10px;}
+.note .addWrap {border-bottom:1px solid #eee;}
+.note .btn_box {border-top:1px solid #000;}
+.note .boxTit.detail~.form-group:last-child {padding-bottom:0;}
+
+.note .view_normal_head .data p span {font-weight:400 !important; color:#333;}
+.note .write_typeBox_head p span {color:#ff6464;}
+
+.note .childInfor {background:#ccc; border-radius:5px; overflow:hidden; padding:0 15px; margin-top:30px;}
+.note .childInfor a {color:#fff; display:inline-block; width:100%; padding:15px 0; font-size:18px; background:url(../images/common/icon_arrow.png)no-repeat right center; background-size:28px;}
+.note .childInfor div {padding-bottom:20px; overflow:hidden; display:block;}
+.note .childInfor div p {float:left; display:inline-block; width:25%; padding:1px;}
+.note .childInfor div p>span {display:block; background:#fff; padding:10px; border-radius:2px; color:#333;}
+.note .childInfor div p>span>span {font-weight:500; color:#000; padding-right:5px;}
+.note .childInfor div p.detail {width:100%;}
+.note .childInfor div p.detail span:empty {display:none;}
+
+.note .write_typeBox.cmt .title .box textarea {height:60px; margin-top:20px;}
+.note .write_typeBox.cmt .title .box div {text-align:center;}
+.note .write_typeBox.cmt .title .box div a {padding:6px 13px; background:#545454; color:#fff; border-radius:5px; display:inline-block; margin-top:10px;}
+
+.note .write_typeBox.cmt .reply {padding:20px 15px; color:#999;}
+.note .write_typeBox.cmt .reply>div p:first-child span:first-child {color:#000; font-weight:500;}
+.note .write_typeBox.cmt .reply>div p:first-child span:last-child {padding-left:10px; color:#333;}
+.note .write_typeBox.cmt .reply>div>div a {padding:6px 13px; background:#ff6464; color:#fff; border-radius:5px; display:inline-block; margin-top:10px;}
+.note .write_typeBox.cmt .reply>div+div {margin-top:20px; padding-top:20px; border-top:1px solid #eee;}
+
+
+/* 투약의뢰서 */
+.medicine .listType1 .tbody li a div:first-child>img {border:0; width:auto !important;}
+.medicine .listType1 .thead li:first-child,
+.medicine .listType1 .tbody li a div:first-child {width:20%;}
+.medicine .listType1 .thead li:last-child,
+.medicine .listType1 .tbody li a div:last-child {width:80%;}
+
+.inputWrap {background:#eee; padding:15px 15px 20px; overflow:hidden; border-radius:5px; margin-top:20px;}
+.inputWrap >div {float:left; width:50%;}
+.inputWrap >div:nth-child(odd)>div {padding-right:20px;}
+.inputWrap p {text-align:center; font-size:16px; color:#000; width:100%; margin-top:20px; line-height:1.4;}
+
+.medicine.view .write_typeBox_head p {padding-bottom:0;}
+.medicine.view .write_typeBox_head span {color:#64d4ff;}
+.medicine.view .write_typeBox_head {background:url(../images/mypage/medi_on.png)no-repeat; background-size:49px; padding-left:59px;}
+.medicine.view .write_typeBox .explain ul {padding-top:0;}
+.medicine.view .btn_box {border-top:0;}
+
+/* 회원정보수정 */
+.modifyBefore .inner {text-align:center; border:1px solid red;}
+.modifyBefore .inner h4 {font-size:28px; text-transform:uppercase; margin-bottom:20px;}
+.modifyBefore .inner p {margin-bottom:20px; color:#999; line-height:1.4; word-break:keep-all;}
+.modifyBefore .inner .form-group {margin-bottom:5px; overflow:hidden;}
+.modifyBefore .inner .form-group>div {float:none; margin:0 auto;}
+.modifyBefore .inner .btn_box {border-top:0; margin-top:0; padding-top:0;}
+
+.form-group.styleA>div>* {float:left; clear:initial !important;}
+.form-group.styleA>div>span {padding:7px 3px 0;}
+.form-group.styleA>div>span.add {padding:0;}
+
+.mypage.modify .write_normal_head p {display:block; padding-bottom:0;}
+.mypage.modify .write_normal_head p:last-child {padding-bottom:10px;}
+.mypage.modify .write_normal_head p:last-child img {width:15px; vertical-align:baseline;}
+.mypage.modify .write_normal .form-group label {background:url(../images/mypage/necessary.png)no-repeat left 13px; padding-left:25px;}
+
+
+/* ******************** 멤버 ******************** */
+/* 로그인 */
+.member.login .loginBtn {margin:0 auto; overflow:hidden;}
+.member.login .loginBtn a {float:left; border-radius:5px; background:#64d4ff; color:#fff; display:inline-block; padding:15px 0; width:100%; font-weight:500;}
+.member.login .loginBtn a+a {margin-top:10px;}
+.member.login .loginBtn .sns {height:55px;}
+.member.login .loginBtn .kakao {background:#ffe600 url(../images/member/kakao.png)no-repeat center;}
+.member.login .loginBtn .naver {background:#00c73c url(../images/member/naver.png)no-repeat center;}
+.member.login .txt {clear:both; text-align:right; margin:20px auto 0; border-top:1px solid #000; padding-top:10px;}
+.member.login .txt>span {display:inline-block; width:100%; margin-top:5px;}
+.member.login .txt>span a {margin-left:10px;}
+
+/* 회원가입 */
+.member.agree h4 {font-size:28px; text-transform:uppercase; margin-bottom:20px; text-align:center;}
+.member.agree .ckCheck {position:relative;}
+.member.agree .ckCheck input {visibility:hidden;}
+.member.agree .ckCheck label {position:absolute; top:5px; left:0; display:inline-block; background:url(../images/common/checkImg.png)no-repeat 0 3px; background-size:20px; padding-left:25px; font-weight:400;}
+.member.agree .ckCheck label.on {background:url(../images/common/checkImg_on.png)no-repeat 0 3px; background-size:20px; padding-left:25px;}
+.member.agree .wrap {height:280px; border:1px solid #eee; background:#f9f9f9; padding:20px; border-radius:5px; overflow:hidden; overflow-y:auto;}
+.member.agree .wrap pre {background:#f9f9f9; overflow-x:hidden;}
+.wrap.h_auto {height:auto !important;}
+
+.form-group.ckRadio>div input[type="radio"] {visibility:hidden;}
+.form-group.ckRadio>div>span {background:url(../images/common/radioImg.png)no-repeat 0 center; background-size:20px; padding-left:10px;}
+.form-group.ckRadio>div>span.on {background:url(../images/common/radioImg_on.png)no-repeat 0 center; background-size:20px; padding-left:10px;}
+
+.form-group.styleA>div>select+select,
+.form-group.styleA>div>select.mSelect {margin-left:5px;}
+
+.kidSearchWrap label {display:block;}
+.kidSearchWrap .kidInputDiv {overflow:hidden;}
+.kidSearchWrap .kidInputDiv+.kidInputDiv {margin-top:5px !important;}
+
+.btnType1 {
+	display:inline-block; padding:10px 14px !important; height:40px; line-height:1.2; overflow:hidden;
+	font-size:inherit; vertical-align:middle; cursor:pointer; text-align:center;
+	background-color:#f1f1f1; color:#333; border:1px solid #dedede; border-radius:5px;
+	margin-left:5px;
+}
+
+.join .kidSearchWrap li[class^="col-sm"] {padding-left:0; padding-right:0;}
+.randomNum {font-size:18px; margin-left:5px;}
+
+.joinEnd .joinId {color:#64d4ff !important; font-size:20px; margin-bottom:30px !important;}
+
+
+/* 회원탈퇴 */
+.add.point {color:red !important; font-weight:500 !important;}
+
+
+/* ********************레이어팝업******************** */
+/* 공통 */
+.layerPop {display:none; position:fixed; top:0; left:0; z-index:9990; width:100%; height:100%;}
+.layerPop .bg {position:fixed; top:0; left:0; z-index:9991; width:100%; height:100%; background:#000; opacity:.6;}
+.layerPop .inner {position:relative; top:0; left:0; z-index:9992; overflow:hidden; border-radius:5px; background:#fff; max-width:300px;}
+.layerPop .inner .title {padding:10px 15px; color:#fff; font-size:18px;}
+.layerPop .inner .title a {position:absolute; top:0; right:0; background:url(../images/common/closeBtn.png)no-repeat center; border-left:1px solid rgba(255,255,255,.2); width:48px; height:48px;}
+.layerPop .inner>div:last-child {padding:10px 0; background:#17ade6; text-align:center;}
+.layerPop .inner>div:last-child a {color:#fff;}
+
+/* 비밀번호입력 */
+.layerPop.secret .inner .explain {padding:20px 0; text-align:center;}
+
+/* 아이디중복확인 */
+.layerPop.idCheck .explain {padding:20px;}
+.layerPop.idCheck .explain label {display:block; font-weight:500;}
+.layerPop.idCheck .explain>div+div {margin-top:10px;}
+.layerPop.idCheck .explain .choice {text-align:center; background:#f5f5f5; border:1px solid #eee; padding:10px 0; border-radius:5px;}
+.layerPop.idCheck .explain .choice span {width:100%; display:inline-block;}
+.layerPop.idCheck .explain .choice span>span {color:red; font-weight:500;}
+.layerPop.idCheck .explain .choice span:last-child {margin:10px 0;}
+.layerPop.idCheck .explain .choice span a {vertical-align:baseline;}
+.layerPop.idCheck .title a {border-left:1px solid rgba(255,255,255,.2);}
+.layerPop.idCheck .form-group.ckRadio>div>span:first-child {margin-right:10px;}
+.layerPop.idCheck .iconSearchWrap {position:relative;}
+.layerPop.idCheck .iconSearchWrap a {position:absolute; top:0; right:0; background:url(../images/common/icon_search_fix.png)no-repeat center; width:40px; height:40px;}
+.layerPop.idCheck .iconSearchWrap+p {color:#999; line-height:1.2; margin-top:10px; font-size:13px;}
+
+/* 원아찾기 */
+.red {color:red !important;}
+.layerPop.kid .explain {padding:20px;}
+.layerPop.kid .explain>div+div {margin-top:10px;}
+.layerPop.kid .explain label {display:block; font-weight:500;}
+.layerPop.kid .choice {text-align:center; background:#f5f5f5; border:1px solid #eee; padding:10px 0; border-radius:5px;}
+.layerPop.kid .choice span {color:#000; width:100%; display:inline-block;}
+.layerPop.kid .choice span a {margin-left:5px; vertical-align:baseline;}
+.layerPop.kid .form-group.ckRadio>div>span:first-child {margin-right:10px;}
+
+
+
+@media screen and (max-width: 991px) {
+	/* .sub .subCon {border:3px solid red;} */
+	
+	/*서브-상단*/
+	.sub .subTit {padding:60px 15px 0; height:340px; background-size:100% !important;}
+	.sub .subTit h2 {margin-top:50px;}
+	.sub .subTit p {word-break:keep-all;}
+	
+	/*서브-내용*/
+	.sub .subCon {border-radius:0; padding:50px 15px;}
+	.sub .subCon .inner {padding:0 30px;}
+	
+	
+	/* ******************** 회사소개 ******************** */
+	/* 인사말 */
+	.sub .greeting .none {display:none;}
+	
+	/* ******************** 마이페이지 ******************** */
+	/* 스마트알림장 */
+	.note .table thead tr.tablet {display:none;}
+	/* 투약의뢰서 */
+	.medicine .write_normal .inputWrap label {width:100%;}
+	.inputWrap >div:nth-child(odd)>div {padding-right:10px !important;}
+	.medicine .write_normal .inputWrap>div>div {width:100%;}
+	
+	
+}
+
+
+
+@media screen and (max-width: 767px) {
+	/* .sub .subCon {border:3px solid blue;} */
+	
+	.h50 {height:20px;}
+	
+	/*서브-상단*/
+	.sub .subTit {padding-top:60px; height:300px; background-size:100% !important;}
+	.sub .subTit h2 {font-size:26px;}
+	.sub .subTit p {font-size:14px; line-height:1.2;}
+	
+	/*서브-내용*/
+	.sub .subCon {margin-top:0; padding:30px 15px;}
+	.sub .subCon h3 {font-size:24px;}
+	.sub .subCon img {max-width:100%;}
+	.sub .subCon .icon {background-size:62px !important; height:62px;}
+	.sub .subCon .inner {padding:0;}
+	.sub .subCon h4 {font-size:18px;}
+	.sub .subCon h5 {font-size:16px;}
+	
+	
+	/* ******************** 회사소개 ******************** */
+	/* 인사말 */
+	.sub .greeting p {line-height:1.6;}
+	.sub .greeting p+p {margin-top:30px;}
+	.sub .greeting p.intro {font-size:18px; margin-top:40px; line-height:1.4;}
+	
+	/* 운영방침 및 연혁 */
+	.sub .history .inner h4,
+	.sub .history .inner ul {width:100%;}
+	.sub .history .inner h4 {padding-bottom:10px;}
+	
+	/* 선생님 소개 */
+	.sub .teacher .inner>div {width:50%;}
+	
+	/* 시설안내 */
+	.sub .facility .inner>div {width:100%;}
+	.sub .facility .inner>div:nth-child(4) img {border-radius:0;}
+	.sub .facility .inner>div:nth-child(5) img {border-radius:0 0 5px 5px;}
+	
+	/* 오시는길 */
+	#googleMap {height:300px;}
+	
+	
+	/* ******************** 교육안내 ******************** */
+	/* 교육프로그램 */
+	.sub .edu01 .inner .policy div {width:50%; padding:0; margin-bottom:20px;}
+	
+	/* 연간교육계획 */
+	.sub .boxType.edu02 .inner>div,
+	.sub .boxType.edu03 .inner>div {width:100%; padding:0;}
+	
+	.sub .boxType .inner>div+div {margin-top:20px;}
+	
+	/* 특별활동 */
+	.sub .edu04 .inner>div {width:100%; padding:0; min-height:auto !important;}
+	.sub .edu04 .inner>div+div {margin-top:30px;}
+	
+	/* 교육행사 */
+	.sub .boxType.edu05 .inner>div {width:100%; padding:0;}
+	
+	
+	
+	
+	
+	/* ******************** 포토앨범 ******************** */
+	/* list.html */
+	.sub .list .inner>a {width:100%; padding:0;}
+	.sub .list .inner>a+a {margin-top:20px;}
+	
+	/* ******************** 입학안내 ******************** */
+	/* 모집요강 */
+	.sub .entran01 .inner>div>div {width:70%; font-size:16px; line-height:1.4;}
+	.sub .entran01 .inner>div>img {padding:20px;}
+	.sub .entran01 .inner>div h4 {font-size:24px;}
+	.sub .entran01 .inner>div h4,
+	.sub .entran01 .inner>div h4.tel {background-size:24px !important; padding-left:29px;}
+	.sub .entran01 .inner>div h4.tel {margin-top:30px; margin-bottom:0;}
+	.sub .entran01 .inner>div h4.tel+span {display:block; line-height:1; font-size:24px;}
+	.sub .entran01 .inner>div>p {margin-top:10px; padding:0 20px; word-break:keep-all; font-size:16px; line-height:1.2;}
+	
+	
+	/* ******************** 알림마당 ******************** */
+	/* 행사일정 */
+	.calendar>.table tbody tr td {display:none;}
+	
+	.calendar>.table .pcView {display:none;}
+	.calendar>.table .moView {display:block; width:100%; height:auto; padding-bottom:20px; border-left:0;}
+	.calendar>.table .moView a span {width:100%; overflow:initial; text-overflow:initial; white-space:initial;}
+	.calendar>.table .moView>span {font-size:18px; font-weight:500;}
+	
+	
+	/* ******************** 마이페이지 ******************** */
+	/* 스마트알림장 */
+	.listType1 .thead {display:none;}
+	.listType1 .tbody li:first-child a div:first-child {border-top:1px solid #333;}
+	.listType1 .tbody li a div {width:100% !important; padding:15px 0;}
+	.listType1 .tbody li a div:first-child {padding-bottom:0;}
+	.listType1 .tbody li a div:first-child span {left:10px;}
+	.listType1 .tbody li a div:last-child {padding-top:0; margin-top:10px;}
+	.listType1 .tbody li a div {float:none !important;}
+	.listType1 .tbody li a div:last-child>p:first-child {overflow:initial !important; text-overflow:initial !important; white-space:normal !important; position:static !important; padding-right:0; word-break:keep-all;}
+	.listType1 .tbody li a div:last-child>p:first-child>span {position:static;}
+	
+	.note .boxTit.detail~div.form-group div>* {width:40%;}
+	.note div.babyfood input {width:100% !important; margin-top:5px;}
+	.note div.feeding select:last-child {width:100% !important; margin-top:5px;}
+	.note div.sleeping select.rear {margin-top:5px;}
+	
+	.note .childInfor div p {display:inline-block; width:50%; padding:1px;}
+	
+	.boxTit.detail~div.form-group>div>input {margin-left:0;}
+	.boxTit.detail~div.feeding>div>select:last-child {margin-left:0;}
+	
+	.note .addWrap {margin-bottom:10px;}
+	/* .note .fileWrap .fileDiv ul li:first-child label {padding-top:0; border:1px solid red;} */
+	.fileDiv label {margin-bottom:10px;}
+	
+	/* 투약의뢰서 */
+	.medicine .listType1 .tbody li a div:first-child {text-align:left;}
+	
+	.medicine .write_normal .inputWrap div {width:100%;}
+	.inputWrap >div:nth-child(odd)>div {padding-right:0 !important;}
+	
+	/* 회원정보수정 */
+	.modifyBefore .form-group input {width:100%;}
+	
+	.mypage.modify .write_normal .form-group label {margin-bottom:5px;}
+	
+	/* 개인정보수정 */
+	.mypage.modify .form-group.mInput input {width:100%; margin-bottom:0;}
+	.mypage.modify .form-group .add {display:block; width:100%;}
+	
+	/* 회원탈퇴 */
+	.mypage.memberEnd .form-group.mInput input {width:100%; margin-bottom:0;}
+	.mypage.memberEnd .form-group .add {display:block; width:100%;}
+	
+	/* 회원가입 */
+	.form-group.styleA.mInput>div input {width:45% !important;}
+	.form-group.styleA>div>.mSelect {margin:5px 0 0 0 !important; width:100%;}
+	.write_normal .form-group>div .idCheckBtn {margin:5px 0 0 0;}
+	.write_normal .form-group>div .idCheckBtn+.add {display:inline-block; width:auto; margin-top:5px;}
+	.form-group.styleA.mInput>div .randomNum+input {width:100% !important;}
+	
+	
+	/* ******************** 멤버 ******************** */
+	/* 로그인 */
+	.member.login .loginBtn,
+	.member.login .txt {width:100%; text-align:center;}
+	.member.login .txt>span {width:auto;}
+	.member.login .txt>span:first-child a {margin-left:0;}
+	.member.login .txt>span:last-child a {margin-left:5px;}
+	.member.login .txt>span>span {display:none;}
+	
+	
+
+}

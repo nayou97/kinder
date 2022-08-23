@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+/* 메인페이지 스타일만 정의 */
+
+
+/* ************************ 데스크탑 (992~) ************************ */
+@media screen and (min-width: 992px), print {
+
+	.main.visual {overflow:hidden; max-width:100%; height:700px; background-size:cover !important;}
+	.main.visual p {text-align:center;}
+	.main.visual p:first-child {margin-top:250px; font-family:'Dohyeon'; font-size:32px; line-height:1.2;}
+	.main.visual p:first-child span {font-size:46px;}
+	.main.visual p:last-child {margin-top:20px; font-size:18px;}
+
+	.main.quick {text-align:center;}
+	.main.quick ul {overflow:hidden; display:inline-block; margin:50px 0;}
+	.main.quick ul li {float:left;}
+	.main.quick ul li+li {padding-left:50px;}
+	.main.quick ul li:nth-child(1) a {background:#afd4fa url(../images/main/i_way.png)no-repeat center 60px;}
+	.main.quick ul li:nth-child(1) a:hover {background:#afd4fa url(../images/main/i_more_large.png)no-repeat center 100px;}
+	.main.quick ul li:nth-child(2) a {background:#fff url(../images/main/i_counsel.png)no-repeat center 60px;}
+	.main.quick ul li:nth-child(2) a:hover {/*type.css*/}
+	.main.quick ul li:nth-child(3) a {background:#fcd587 url(../images/main/i_notice.png)no-repeat center 60px;}
+	.main.quick ul li:nth-child(3) a:hover {background:#fcd587 url(../images/main/i_more_large.png)no-repeat center 100px;}
+	.main.quick ul li a {display:inline-block; width:198px; height:198px; border-radius:50%; border:1px solid transparent; transition-duration:0.15s;}
+	.main.quick ul li a p {margin-top:30px; font-size:18px;}
+	.main.quick ul li a:hover p {color:#fff; margin-top:60px;}
+
+
+	.main.board {position:relative; overflow:hidden;}
+	.main.board > div {float:left; width:50%; padding:40px 50px;}
+	.main.board > div h2 {font-size:20px;}
+	.main.board > div h2.box {font-size:16px; display:inline-block; padding:10px 13px; color:#fff; border-radius:10px;}
+	.main.board .notice {background:#fff; height:205px;}
+	.main.board .notice .title {position:relative; padding-bottom:20px; border-bottom:1px solid #fcd587;}
+	.main.board .notice .title a {
+		position:absolute; top:0; right:0; line-height:1;
+		display:inline-block; padding-right:20px; background:url(../images/main/i_more.png)no-repeat center right;
+	}
+	.main.board .notice .list {padding-top:20px;}
+	.main.board .notice .list a {display:inline-block; width:100%;}
+	.main.board .notice .list a:hover {/* color:#999; */}
+	.main.board .notice .list a p {padding-right:87px; position:relative;}
+	.main.board .notice .list a p span {position:absolute; top:0; right:0;}
+
+	.main.board .photo {background:url(../images/main/photoImg.jpg)no-repeat center -50px; padding:0;}
+	.main.board .photo a {display:inline-block; width:100%; height:205px;}
+	.main.board .photo a:hover {background:rgba(0,0,0,.2);}
+	.main.board .photo a h2 {margin:40px 0 0 50px;}
+	.main.board .menu {background:url(../images/main/menuImg.jpg)no-repeat center -90px; padding:0;}
+	.main.board .menu a {display:inline-block; width:100%; height:205px;}
+	.main.board .menu a:hover {background:rgba(0,0,0,.2);}
+	.main.board .menu a h2 {margin:40px 0 0 50px;}
+	
+	.main.board .eduPro {background:url(../images/main/eduproImg.jpg)no-repeat center; background-size:cover;}
+	.main.board .eduPro {padding:25px !important;}
+	.main.board .eduPro .inner {background:#fff; border:1px solid #fcd587; text-align:center; padding-bottom:38px;}
+	.main.board .eduPro .inner h2 {padding:35px 0;}
+	.main.board .eduPro .inner a {
+		display:inline-block; line-height:1;
+		padding-left:25px; background:url(../images/main/i_more.png)no-repeat center left;
+	}
+	.main.board .eduPro .inner a:hover {/* color:#999; */}
+	.main.board .eduPro .inner a:last-child {margin-left:50px;}
+}
+
+
+/* ************************ 태블릿 이하(~991) ************************ */
+@media screen and (max-width: 991px), print {
+	
+	.main.visual {overflow:hidden; max-width:100%; height:auto !important; background-size:cover !important; padding-bottom:300px;}
+	.main.visual p {text-align:center;}
+	.main.visual p:first-child {margin-top:250px; font-family:'Dohyeon'; font-size:30px; line-height:1.2;}
+	.main.visual p:first-child span {font-size:44px;}
+	.main.visual p:last-child {margin-top:20px; font-size:18px;}
+
+	.main.quick {text-align:center;}
+	.main.quick ul {overflow:hidden; display:inline-block; margin:50px 0;}
+	.main.quick ul li {float:left;}
+	.main.quick ul li+li {padding-left:50px;}
+	.main.quick ul li:nth-child(1) a {background:#afd4fa url(../images/main/i_way.png)no-repeat center 60px;}
+	.main.quick ul li:nth-child(1) a:hover {background:#afd4fa url(../images/main/i_more_large.png)no-repeat center 100px;}
+	.main.quick ul li:nth-child(2) a {background:#fff url(../images/main/i_counsel.png)no-repeat center 60px;}
+	.main.quick ul li:nth-child(2) a:hover {/*type.css*/}
+	.main.quick ul li:nth-child(3) a {background:#fcd587 url(../images/main/i_notice.png)no-repeat center 60px;}
+	.main.quick ul li:nth-child(3) a:hover {background:#fcd587 url(../images/main/i_more_large.png)no-repeat center 100px;}
+	.main.quick ul li a {display:inline-block; width:198px; height:198px; border-radius:50%; border:1px solid transparent; transition:none;}
+	.main.quick ul li a p {margin-top:30px; font-size:16px;}
+	.main.quick ul li a:hover p {color:#fff; margin-top:60px;}
+
+	
+	.main.board {position:relative; overflow:hidden; margin-bottom:40px;}
+	.main.board > div {float:left; width:50%; padding:40px 50px;}
+	.main.board > div h2 {font-size:20px;}
+	.main.board > div h2.box {font-size:16px; display:inline-block; padding:10px 13px; color:#fff; border-radius:10px;}
+	.main.board .notice {background:#fff; height:205px;}
+	.main.board .notice .title {position:relative; padding-bottom:20px; border-bottom:1px solid #fcd587;}
+	.main.board .notice .title a {
+		position:absolute; top:0; right:0; line-height:1;
+		display:inline-block; padding-right:20px; background:url(../images/main/i_more.png)no-repeat center right;
+	}
+	.main.board .notice .list {padding-top:20px;}
+	.main.board .notice .list a {display:inline-block; width:100%;}
+	.main.board .notice .list a:hover {/* color:#999; */}
+	.main.board .notice .list a p {padding-right:87px; position:relative;}
+	.main.board .notice .list a p span {position:absolute; top:0; right:0;}
+
+	.main.board .photo {background:url(../images/main/photoImg.jpg)no-repeat center -50px; padding:0;}
+	.main.board .photo a {display:inline-block; width:100%; height:205px;}
+	.main.board .photo a:hover {background:rgba(0,0,0,.2);}
+	.main.board .photo a h2 {margin:40px 0 0 50px;}
+	.main.board .menu {background:url(../images/main/menuImg.jpg)no-repeat center -90px; padding:0;}
+	.main.board .menu a {display:inline-block; width:100%; height:205px;}
+	.main.board .menu a:hover {background:rgba(0,0,0,.2);}
+	.main.board .menu a h2 {margin:40px 0 0 50px;}
+	
+	.main.board .eduPro {background:url(../images/main/eduproImg.jpg)no-repeat center; background-size:cover;}
+	.main.board .eduPro {padding:25px !important;}
+	.main.board .eduPro .inner {background:#fff; border:1px solid #fcd587; text-align:center; padding-bottom:38px;}
+	.main.board .eduPro .inner h2 {padding:35px 0;}
+	.main.board .eduPro .inner a {
+		display:inline-block; line-height:1;
+		padding-left:25px; background:url(../images/main/i_more.png)no-repeat center left;
+	}
+	.main.board .eduPro .inner a:hover {/* color:#999; */}
+	.main.board .eduPro .inner a:last-child {margin-left:5%;}
+}
+
+
+/* ************************ 모바일 (0~767) ************************ */
+@media screen and (max-width: 767px), print {
+	
+	.main.visual {padding-bottom:200px;}
+	.main.visual p:first-child {margin-top:150px; font-size:24px;}
+	.main.visual p:first-child span {font-size:34px;}
+	.main.visual p:last-child {margin-top:10px; font-size:16px;}
+
+	.main.quick ul {margin:40px 0;}
+	.main.quick ul li {float:none;}
+	.main.quick ul li+li {padding-left:0; margin-top:20px;}
+
+	
+	.main.board {position:relative; overflow:hidden; margin-bottom:0;}
+	.main.board > div {float:left; width:100%; padding:30px 25px; height:auto !important; box-shadow:0 0 3px rgba(0,0,0,.3) !important;}
+	/* .main.board > div+div {margin-top:1px;} */
+	.main.board > div h2 {font-size:18px;}
+	.main.board > div h2.box {font-size:16px !important; display:inline-block; padding:10px 13px; color:#fff; border-radius:10px;}
+	
+	.main.board .photo,
+	.main.board .menu {background-size:cover; background-position-y:center;}
+	
+	.main.board .photo a {display:inline-block; width:100%; height:181px;}
+	.main.board .photo a h2 {margin:30px 0 0 25px;}
+	.main.board .menu a {display:inline-block; width:100%; height:181px;}
+	.main.board .menu a h2 {margin:30px 0 0 25px;}
+	
+	.main.board .eduPro .inner {background:#fff; border:1px solid #fcd587; text-align:center; padding-bottom:30px;}
+	.main.board .eduPro .inner h2 {padding:30px 0 25px;}
+	
+}

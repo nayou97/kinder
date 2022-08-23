@@ -1,0 +1,149 @@
+@charset "utf-8";
+
+/*type:겨울*/
+.typeWinter {background-color:#f39a94;}
+.typeWinter .typeColor {background-color:#f39a94;}
+.typeWinter nav.pc.typeColor,
+.typeWinter nav.pc.typeColor .navbg .dep2 {background-color:#f39a94; opacity:.9;}
+.typeWinter nav.pc.typeColor .gnb>ul>li {border-right:1px solid #fcaba5;}
+.typeWinter nav.pc.typeColor .gnb>ul>li>ul {border-top:1px solid #fcaba5;}
+.typeWinter nav.pc.typeColor .gnb>ul>li>ul>li a:hover {color:#ffd921;}
+.typeWinter nav.mobile .gnb {background-color:#f39a94;}
+
+.typeWinter .main.visual {background:#ffeac1 url(../images/typeWinter/bg.png)no-repeat center bottom;}
+
+.typeWinter .main.quick ul li:nth-child(2) a:hover p {color:#f39a94;}
+.typeWinter .main.quick ul li:nth-child(2) a:hover {background:#fff url(../images/typeWinter/i_more_large.png)no-repeat center 100px;}
+
+	/*서브*/
+	.typeWinter .sub .subTit {background:#ffeac1 url(../images/typeWinter/sub.png)no-repeat center bottom;}
+	.typeWinter .sub .subCon .icon {background:url(../images/typeWinter/icon.png)no-repeat center;}
+	
+
+	
+/*type:봄*/
+.typeSpring {background-color:#6d6bad;}
+.typeSpring .typeColor {background-color:#6d6bad;}
+.typeSpring header .head .side li a {color:#fff !important;}
+.typeSpring nav.pc.typeColor,
+.typeSpring nav.pc.typeColor .navbg .dep2 {background-color:#a6bdb3; opacity:.9;}
+.typeSpring nav.pc.typeColor .gnb>ul>li {border-right:1px solid #cbddd5;}
+.typeSpring nav.pc.typeColor .gnb>ul>li>ul {border-top:1px solid #cbddd5;}
+/* .typeSpring nav.pc.typeColor .gnb>ul>li>ul>li a:hover {color:#4441aa;} */
+.typeSpring nav.pc.typeColor .gnb>ul>li>ul>li a:hover {color:#ffd921;}
+.typeSpring nav.mobile .gnb {background-color:#6d6bad;}
+
+.typeSpring .main.visual {background:#ffeac1 url(../images/typeSpring/bg.png)no-repeat center bottom;}
+
+.typeSpring .main.quick ul li:nth-child(2) a:hover p {color:#6d6bad;}
+.typeSpring .main.quick ul li:nth-child(2) a:hover {background:#fff url(../images/typeSpring/i_more_large.png)no-repeat center 100px;}
+
+.typeSpring footer div ul:last-child li a {color:#fff;}
+.typeSpring footer address {color:#fff;}
+
+	/*서브*/
+	.typeSpring .sub .subTit {background:#ffeac1 url(../images/typeSpring/sub.png)no-repeat center bottom;}
+	.typeSpring .sub .subCon .icon {background:url(../images/typeSpring /icon.png)no-repeat center;}
+	
+
+/*type:여름*/
+.typeSummer {background-color:#054c96;} /*1a5b9f*/
+.typeSummer .typeColor {background-color:#054c96;}
+.typeSummer header .head .side li a {color:#fff !important;}
+.typeSummer nav.pc.typeColor,
+.typeSummer nav.pc.typeColor .navbg .dep2 {background-color:#faab70; opacity:.9;}
+.typeSummer nav.pc.typeColor .gnb>ul>li {border-right:1px solid #ffd5b3;}
+.typeSummer nav.pc.typeColor .gnb>ul>li>ul {border-top:1px solid #ffd5b3;}
+/* .typeSummer nav.pc.typeColor .gnb>ul>li>ul>li a:hover {color:#1a5b9f;} */
+.typeSummer nav.pc.typeColor .gnb>ul>li>ul>li a:hover {color:#fff200;}
+.typeSummer nav.mobile .gnb {background-color:#054c96;}
+
+.typeSummer .main.visual {background:#ffeac1 url(../images/typeSummer/bg.png)no-repeat center bottom;}
+
+.typeSummer .main.quick ul li:nth-child(2) a:hover p {color:#054c96;}
+.typeSummer .main.quick ul li:nth-child(2) a:hover {background:#fff url(../images/typeSummer/i_more_large.png)no-repeat center 100px;}
+
+.typeSummer footer div ul:last-child li a {color:#fff;}
+.typeSummer footer address {color:#fff;}
+
+	/*서브*/
+	.typeSummer .sub .subTit {background:#ffeac1 url(../images/typeSummer/sub.png)no-repeat center bottom;}
+	.typeSummer .sub .subCon .icon {background:url(../images/typeSummer/icon.png)no-repeat center;}
+	
+
+/*type:가을*/
+.typeFall {background-color:#76533f;}
+.typeFall .typeColor {background-color:#76533f;}
+.typeFall header .head .side li a {color:#fff !important;}
+.typeFall nav.pc.typeColor,
+.typeFall nav.pc.typeColor .navbg .dep2 {background-color:#fac365; opacity:.9;}
+.typeFall nav.pc.typeColor .gnb>ul>li {border-right:1px solid #ffdfa7;}
+.typeFall nav.pc.typeColor .gnb>ul>li>ul {border-top:1px solid #ffdfa7;}
+/* .typeFall nav.pc.typeColor .gnb>ul>li>ul>li a:hover {color:#1a5b9f;} */
+.typeFall nav.pc.typeColor .gnb>ul>li>ul>li a:hover {color:#fff200;}
+.typeFall nav.mobile .gnb {background-color:#76533f;}
+
+.typeFall .main.visual {background:#ffeac1 url(../images/typeFall/bg.png)no-repeat center bottom;}
+
+.typeFall .main.quick ul li:nth-child(2) a:hover p {color:#76533f;}
+.typeFall .main.quick ul li:nth-child(2) a:hover {background:#fff url(../images/typeFall/i_more_large.png)no-repeat center 100px;}
+
+.typeFall footer div ul:last-child li a {color:#fff;}
+.typeFall footer address {color:#fff;}
+
+	/*서브*/
+	.typeFall .sub .subTit {background:#ffeac1 url(../images/typeFall/sub.png)no-repeat center bottom;}
+	.typeFall .sub .subCon .icon {background:url(../images/typeFall/icon.png)no-repeat center;}
+	
+
+@media screen and (max-width: 991px) {
+	
+	/*type:겨울*/
+	.typeWinter	header .head {background-color:#ffeac1;}
+	.typeWinter .main.visual {background:#ffeac1 url(../images/typeWinter/bg_mobile.png)no-repeat center bottom;}
+	.typeWinter nav.mobile .gnb>ul>li.on>a {color:#fff; background-color:#f39a94; border-top:1px solid rgba(255,255,255,.2);}
+	.typeWinter nav.mobile .gnb>ul>li>ul>li a:hover {color:#f3665d;}
+	.typeWinter nav.mobile .gnb>ul>li>ul>li.on a {color:#3982cd;}
+	.typeWinter header .head .gnbView {border-right:1px solid #efdab4;}
+	.typeWinter header .head .side ul li .login {border-left:1px solid #efdab4;}
+	/*서브*/
+	.typeWinter .sub .subTit {background:#ffeac1 url(../images/typeWinter/sub_mobile.png)no-repeat center bottom;}
+		
+	/*type:봄*/
+	.typeSpring	header .head {background-color:#ffeac1;}
+	.typeSpring .main.visual {background:#ffeac1 url(../images/typeSpring/bg_mobile.png)no-repeat center bottom;}
+	.typeSpring nav.mobile .gnb>ul>li.on>a {color:#fff; background-color:#6d6bad; border-top:1px solid rgba(255,255,255,.2);}
+	.typeSpring nav.mobile .gnb>ul>li>ul>li a:hover {color:#f3665d;}
+	.typeSpring nav.mobile .gnb>ul>li>ul>li.on a {color:#3982cd;}
+	.typeSpring header .head .gnbView {border-right:1px solid #efdab4;}
+	.typeSpring header .head .side ul li .login {border-left:1px solid #efdab4;}
+	/*서브*/
+	.typeSpring .sub .subTit {background:#ffeac1 url(../images/typeSpring/sub_mobile.png)no-repeat center bottom;}
+	
+	/*type:여름*/
+	.typeSummer	header .head {background-color:#ffeac1;}
+	.typeSummer .main.visual {background:#ffeac1 url(../images/typeSummer/bg_mobile.png)no-repeat center bottom;}
+	.typeSummer nav.mobile .gnb>ul>li.on>a {color:#fff; background-color:#1a5b9f; border-top:1px solid rgba(255,255,255,.2);}
+	.typeSummer nav.mobile .gnb>ul>li>ul>li a:hover {color:#fb9345;}
+	.typeSummer nav.mobile .gnb>ul>li>ul>li.on a {color:#3982cd;}
+	.typeSummer header .head .gnbView {border-right:1px solid #efdab4;}
+	.typeSummer header .head .side ul li .login {border-left:1px solid #efdab4;}
+	/*서브*/
+	.typeSummer .sub .subTit {background:#ffeac1 url(../images/typeSummer/sub_mobile.png)no-repeat center bottom;}
+	
+	/*type:가을*/
+	.typeFall header .head {background-color:#ffeac1;}
+	.typeFall .main.visual {background:#ffeac1 url(../images/typeFall/bg_mobile.png)no-repeat center bottom;}
+	.typeFall nav.mobile .gnb>ul>li.on>a {color:#fff; background-color:#76533f; border-top:1px solid rgba(255,255,255,.2);}
+	.typeFall nav.mobile .gnb>ul>li>ul>li a:hover {color:#fb9345;}
+	.typeFall nav.mobile .gnb>ul>li>ul>li.on a {color:#3982cd;}
+	.typeFall header .head .gnbView {border-right:1px solid #efdab4;}
+	.typeFall header .head .side ul li .login {border-left:1px solid #efdab4;}
+	/*서브*/
+	.typeFall .sub .subTit {background:#ffeac1 url(../images/typeFall/sub_mobile.png)no-repeat center bottom;}
+	
+}
+
+@media screen and (max-width: 767px) {
+	
+}

@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+/* 공용 / 수정금지 */
+#layerPopup {z-index:999999; position:fixed;}
+#layerPopup * {box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box;}
+#layerPopup [class ^= "pop"] {z-index:1; position:fixed; display:none; overflow:hidden; border:1px solid #000; box-shadow:5px 5px 5px rgba(0,0,0,.2) !important; background:#fff;}
+#layerPopup [class ^= "pop"] > div {position:relative;}
+#layerPopup [class ^= "pop"] img {width:100%p; height:auto; padding:0; marign:0; font-size:0; line-height:0; vertical-align:top;}
+#layerPopup [class ^= "pop"] .bottom {width:100%; height:30px; text-align:right; border-top:1px solid #000; background:#fff; overflow:hidden; vertical-align:top;}
+#layerPopup [class ^= "pop"] .bottom a {
+	display:block; float:right; height:30px; vertical-align:top; padding:10px 10px 0 10px; cursor:pointer; line-height:100%; color:#666 !important;
+	font-family:"돋움",Dothum; font-size:11px; letter-spacing:-1px; border-left:1px solid #e5e5e5 !important;
+}
+#layerPopup [class ^= "pop"] .bottom a.layerClose {padding-top:8px; font-size:14px;}
+
+/* 개별 세팅 */
+#layerPopup pop1 {}
