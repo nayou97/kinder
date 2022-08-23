@@ -1,0 +1,273 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<title>키즈홈 디자인-08</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="user-scalable=no, maximum_scale=1, minimum_scale=1.0 ,width=device-width, target_densitydpi=device-dpi">
+	<meta name="title" content="">
+	<meta name="author" content="">
+	<meta name="keywords" content="">
+	<meta name="subject" content="">
+	<meta name="Description" content="">
+	<meta name="classification" content="">
+
+	<link type="text/css" href="../style/bootstrap.3.3.6.min.css" rel="stylesheet">
+	<link type="text/css" href="../style/bootstrap-select.css" rel="stylesheet">
+	<link type="text/css" href="../style/reset.css" rel="stylesheet">
+	<link type="text/css" href="../style/common.css" rel="stylesheet">
+	<link type="text/css" href="../style/common-ani.css" rel="stylesheet">
+	<link type="text/css" href="../style/layerpopup.css" rel="stylesheet">
+	<link type="text/css" href="../style/program.css" rel="stylesheet">
+	<link type="text/css" href="../style/ebi.slider.css" rel="stylesheet">
+	<link type="text/css" href="../style/type.css" rel="stylesheet">
+	<link type="text/css" href="../style/layout.css" rel="stylesheet">
+	<link type="text/css" href="../style/design.css" rel="stylesheet">
+	<link type="text/css" href="../style/main.css" rel="stylesheet">
+
+	<script type="text/javascript" src="../script/jquery.1.12.0.min.js"></script>
+	<script type="text/javascript" src="../script/jquery-ui.1.10.1.js"> </script>
+	<script type="text/javascript" src="../script/jquery.cookie.js"></script>
+	<script type="text/javascript" src="../script/bootstrap.3.3.6.min.js"></script>
+	<script type="text/javascript" src="../script/bootstrap-select.js"></script>
+	<script type="text/javascript" src="../script/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="../script/ebi.default.js"></script>
+	<script type="text/javascript" src="../script/ebi.layerpopup.js"></script>
+	<script type="text/javascript" src="../script/ebi.slider.js"></script>
+	<script type="text/javascript" src="../script/ebi.gnb.js"></script>
+	<script type="text/javascript" src="../script/ebi.js"></script>
+
+	<!-- push 전송 API -->
+	<script type="text/javascript" src="/pushProvider/sender.js"></script>
+
+	<!--[if lt IE 9]>
+		<link href="../style/ie.warning.css" rel="stylesheet" type="text/css">
+	<![endif]-->
+</head>
+
+<body class="typeWinter">
+<!-- <body class="typeSpring"> -->
+<!-- <body class="typeSummer"> -->
+<!-- <body class="typeFall"> -->
+
+<header>
+	<div class="head">
+		<h1>
+			<a href="../main/main.html" title="행복어린이집">
+				<img class="pc" src="../images/common/logo.png" alt="행복어린이집 로고">
+				<img class="mobile" src="../images/common/logo2.png" alt="행복어린이집 로고">
+			</a>
+		</h1>
+		<div class="side">
+			<ul>
+				<li><a class="typeColor login" href="../member/login.html"><span>로그인</span></a></li>
+				<li><a class="typeColor pc" href="../member/join_agree.html">회원가입</a></li>
+			</ul>
+		</div>
+		<a class="gnbView mobile" href="#void" title="전체메뉴보기"><!-- <img src="../images/common/icon_allmenu.png" alt=""> --></a>
+	</div>
+
+	<nav class="pc box typeColor">
+		<div class="navbg pc">
+			<div class="dep1"></div>
+			<div class="dep2"></div>
+		</div>
+		<!-- orgH:1차메뉴 높이 / maxH:최대높이 / leftgap:왼쪽에서 여백 px,% 사용가능 -->
+		<div class="gnb box" data-orgH="60" data-maxH="110" data-gap="200px" data-leftPos="0">
+			<ul>
+				<!-- <a class="home mobile" href="../main/main.html">HOME</a> -->
+				<li >
+					<a href="../intro/greeting.html">우리원소개</a>
+					<ul>
+						<li ><a href="../intro/greeting.html">인사말</a></li>
+						<li ><a href="../intro/history.html">운영방침 및 연혁</a></li>
+						<li ><a href="../intro/teacher.html">선생님 소개</a></li>
+						<li ><a href="../intro/facility.html">시설안내</a></li>
+						<li ><a href="../intro/location.html">오시는길</a></li>
+					</ul>
+				</li>
+				<li >
+					<a href="../edu/edu_01.html">교육안내</a>
+					<ul>
+						<li ><a href="../edu/edu_01.html">교육 프로그램</a></li>
+						<li ><a href="../edu/edu_02.html">연간 교육계획</a></li>
+						<li ><a href="../edu/edu_03.html">일일 활동계획</a></li>
+						<li ><a href="../edu/edu_04.html">특별활동</a></li>
+						<li ><a href="../edu/edu_05.html">교육행사</a></li>
+						<!-- <li><a href="../edu/edu_06.html">방과 후 과정</a></li> -->
+					</ul>
+				</li>
+				<li >
+					<a href="../gallery/list.html">포토앨범</a>
+					<ul>
+						<li ><a href="../gallery/list.html">씨앗반</a></li>
+						<li ><a href="../gallery/list.html">새싹반</a></li>
+						<li ><a href="../gallery/list.html">풀잎반</a></li>
+						<li ><a href="../gallery/list.html">열매반</a></li>
+						<li ><a href="../gallery/list.html">꽃잎반</a></li>
+					</ul>								
+				</li>
+				<li >
+					<a href="../entrance/entrance_01.html">입학안내</a>
+					<ul>
+						<li ><a href="../entrance/entrance_01.html">모집요강</a></li>
+						<li ><a href="../entrance/entrance_02.html?tn=bbs_entrance">입학상담</a></li>
+						<!-- <li><a href="../entrance/entrance_03.html">입학대기</a></li> -->
+					</ul>
+				</li>
+				<li >
+					<a href="../community/notice_list.html?tn=bbs_notice">알림마당</a>
+					<ul>
+						<li ><a href="../community/notice_list.html?tn=bbs_notice">공지사항</a></li>
+						<li ><a href="../community/paper_list.html?tn=bbs_paper">가정통신문</a></li>
+						<li ><a href="../community/food_list.html?tn=bbs_food">식단표</a></li>
+						<li ><a href="../community/schedule_list.html?tn=schedule_info">행사일정</a></li>
+					</ul>
+				</li>
+				<li >
+					<a href="../mypage/note_list.html?tn=bbs_smart_note">마이페이지</a>							
+					<!-- 로그인 전 --
+					<ul>
+						<li ><a href="../member/login.html">로그인</a></li>
+						<li ><a href="../member/join_agree.html">회원가입</a></li>
+						<li ><a href="../member/search.html">아이디/비밀번호찾기</a></li>
+						<li ><a href="../member/agree.html">이용약관</a></li>
+						<li ><a href="../member/privacy.html">개인정보취급방침</a></li>
+					</ul>-->
+					
+					<!-- 로그인 후 -->
+					<ul>
+						<li ><a href="../mypage/note_list.html?tn=bbs_smart_note">스마트알림장</a></li>
+						<li ><a href="../mypage/medicine_list.html?tn=bbs_medicine">투약의뢰서</a></li>	<!-- ▼ 수정 V01  -->		
+						<li ><a href="../mypage/modify_before.html">개인정보수정</a></li>
+						<li ><a href="../mypage/member_end.html">회원탈퇴</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</nav><!-- //nav -->
+
+	<div class="gnbCover mobile"></div>
+	<nav class="mobile box" data-arrow="left"><!-- 모바일 메뉴펼침 방향 선택 -->
+		<div class="closeWrap typeColor">
+			<a href="#void" class="gnbClose"></a>
+			<a class="home" href="../main/main.html">HOME</a>
+		</div>
+	</nav>
+</header>
+<!-- // header -->
+
+<div class="sub">	
+	<!-- sub title -->
+	<div class="subTit">
+		<h2>교육안내</h2>
+		<p>꿈과 지혜가 자라는 행복한 아이들! 쾌적한 환경에서 아이들의 꿈을 키워요!</p>
+	</div>
+
+	<!-- sub contents -->
+	<div class="subCon edu01">
+		<h3>교육프로그램</h3>
+		<div class="icon"></div>
+		
+		<!-- lnb -->
+		<div class="lnb pc edu">
+			<ul>
+				<li  class="on"><a href="../edu/edu_01.html">교육프로그램</a></li>
+				<li ><a href="../edu/edu_02.html">연간교육계획</a></li>
+				<li ><a href="../edu/edu_03.html">일일활동계획</a></li>
+				<li ><a href="../edu/edu_04.html">특별활동</a></li>
+				<li ><a href="../edu/edu_05.html">교육행사</a></li>
+				<!-- <li><a href="../edu/edu_06.html">방과후과정</a></li> -->
+			</ul>
+		</div><!-- //lnb -->
+		
+		<div class="h50"></div>
+		
+		<div class="inner">
+			<!-- 교육방침 -->
+			<h4>교육방침</h4>
+			<div class="sameH policy">
+				<div>
+					<img src="../images/edu/edu01_icon1.png" alt="">
+					<h5>신체운동</h5>
+					<p>건강한 몸과 마음을 가진 어린이</p>
+				</div>
+				
+				<div>
+					<img src="../images/edu/edu01_icon2.png" alt="">
+					<h5>의사소통</h5>
+					<p>바르고 고운말을 사용하는 어린이</p>
+				</div>
+				
+				<div>
+					<img src="../images/edu/edu01_icon3.png" alt="">
+					<h5>사회관계</h5>
+					<p>다른 사람과 더불어 생활하는 어린이</p>
+				</div>
+				
+				<div>
+					<img src="../images/edu/edu01_icon4.png" alt="">
+					<h5>예술경험</h5>
+					<p>창의적으로 표현하는 어린이</p>
+				</div>
+			</div>
+			
+			<div class="h50"></div>
+			
+			<!-- 교육프로그램 -->
+			<h4>교육프로그램</h4>
+			<div class="agePro">
+				<h5 class="age bgc1">3세</h5>
+				<p>&middot; 기본 생활습관교육</p>
+				<p>&middot; 게임,놀이,악기를 활용한 음악교육</p>
+				<p>&middot; 기초체력(요가,산책)</p>
+			</div>
+			<div class="agePro">
+				<h5 class="age bgc2">4세</h5>
+				<p>&middot; 문학적 접근을 통한 통합교육</p>
+				<p>&middot; 자연친화교육</p>
+				<p>&middot; 과학교육</p>
+				<p>&middot; 기초체력(요가,산책)</p>
+			</div>
+			<div class="agePro">
+				<h5 class="age bgc3">5세</h5>
+				<p>&middot; 유아주도의 프로젝트 수업</p>
+				<p>&middot; 나라사랑교육</p>
+				<p>&middot; 읽기,쓰기능력 향상</p>
+				<p>&middot; 그림일기</p>
+				<p>&middot; 기초체력(줄넘기)</p>
+			</div>
+		</div>
+		
+	</div>	
+</div>
+
+<!-- footer start -->
+<div id="gotop">
+	<a href="#void" alt="위로"></a>
+</div>
+
+<footer>
+	<div>
+		<ul>
+			<li><a href="../member/agree.html">이용약관</a></li>
+			<li><a href="../member/privacy.html">개인정보취급방침</a></li>
+			<li><a href="../member/join_agree.html">회원가입</a></li>
+			<li><a href="../member/search.html">아이디/비밀번호찾기</a></li>
+		</ul>
+		<ul>
+			<li><a href="#void" class="typeColor">admin</a></li>
+			<li><a href="http://www.ebiweb.co.kr/ebi_2014/main/main.html" class="typeColor">design by EBI</a></li>
+		</ul>
+	</div>
+	<address class="typeColor">
+		<span>대구시 북구 노원동 1가 12-10, 4F</span>
+		<span>TEL : 1688-6860</span>
+		<span>개인정보관리책임자 : 홍길동 (OOO@OOO.OOO)</span>
+		<p>Copyright &copy; by 키즈홈유치원. All right reserved.</p>
+	</address>
+</footer>
+
+</body>
+</html>
